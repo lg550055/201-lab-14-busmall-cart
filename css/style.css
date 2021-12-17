@@ -1,1 +1,119 @@
 /* TODO: Make it awesome */
+body {
+  background-color: slategray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: azure;
+}
+
+header {
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5em 1em;
+  text-align: left;
+}
+
+header > h1 {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+}
+
+nav li {
+  display: inline;
+  font-size: 0.8em;
+  margin-left: 0.8em;
+  padding: 0.3em 1em;
+  border: 1px solid azure;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: azure;
+}
+
+li span {
+  padding-left: 0.8em;
+}
+
+main {
+  background-color: lightpink;
+  padding: 3em 0;
+}
+
+section {
+  max-width: 600px;
+  margin: auto;
+}
+
+div header {
+  text-align: center;
+  padding: 0;
+}
+
+ol {
+  padding: 1em 1em 3em;
+}
+
+fieldset {
+  border: 2px solid slategray;
+  border-radius: 8px;
+  padding: 2em 1em;
+  margin: 0 1em;
+}
+
+legend {
+  padding: 0 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+#items, #quantity {
+  background-color: azure;
+  color: slategray;
+  border-radius: 8px;
+  border: none;
+  width: 10em;
+  padding: 5px 0;
+}
+
+input[type="submit"] {
+  border: none;
+  padding: 0.5em 1em;
+  background-color: slategray;
+  border-radius: 8px;
+  color: azure;
+}
+
+#cartContents {
+  display: none;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  font-weight: bold;
+  padding: 0.3em 1.5em;
+  border-bottom: 2px solid slategrey;
+}
+
+td {
+  padding: 0.25em 0;
+}
+
+footer {
+  font-size: 0.7em;
+  padding: 3em 0;
+}
